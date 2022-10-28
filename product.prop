@@ -42,6 +42,15 @@ vendor.display.disable_rotator_downscale=1
 ro.config.low_ram=false
 ro.lmk.log_stats=true
 
+# MIUI Camera
+ro.product.mod_device=gram_in_global
+vendor.camera.aux.packagelist=com.android.camera
+persist.vendor.camera.privapp.list=com.android.camera
+ro.com.google.lens.oem_camera_package=com.android.camera
+ro.miui.notch=1
+ro.hardware.camera=xiaomi
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+
 # Incremental FS
 ro.incremental.enable=1
 

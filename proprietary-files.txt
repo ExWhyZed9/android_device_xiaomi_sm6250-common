@@ -1043,6 +1043,41 @@ vendor/lib/libFileMux_proprietary.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
 
+# MIUI Camera
+system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,GCamGOPrebuilt-V3,Camera2
+system/lib/libcamera_algoup_jni.xiaomi.so
+system/lib64/libcamera_algoup_jni.xiaomi.so
+vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
+vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
+vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/camera.device@1.0-impl.so
+vendor/lib/camera.device@3.2-impl.so
+vendor/lib/camera.device@3.3-impl.so
+vendor/lib/camera.device@3.4-external-impl.so
+vendor/lib/camera.device@3.4-impl.so
+vendor/lib/camera.device@3.5-external-impl.so
+vendor/lib/camera.device@3.5-impl.so
+vendor/lib/camera.device@3.6-external-impl.so
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib/libcamera2ndk_vendor.so
+vendor/lib/libgui_vendor.so
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib/vendor.qti.hardware.camera.device@3.5.so
+vendor/lib64/android.hardware.camera.provider@2.4-external.so
+vendor/lib64/camera.device@1.0-impl.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/camera.device@3.3-impl.so
+vendor/lib64/camera.device@3.4-external-impl.so
+vendor/lib64/camera.device@3.4-impl.so
+vendor/lib64/camera.device@3.5-external-impl.so
+vendor/lib64/camera.device@3.5-impl.so
+vendor/lib64/camera.device@3.6-external-impl.so
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
+vendor/lib64/libcamera2ndk_vendor.so
+vendor/lib64/libgui_vendor.so
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
+
 # MiSys
 vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service

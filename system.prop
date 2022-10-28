@@ -18,9 +18,6 @@ persist.vendor.btstack.enable.swbpm=true
 persist.vendor.service.bdroid.soc.alwayson=true
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive
 
-# Camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.snap,com.android.camera2,com.android.camera
-
 # CNE
 persist.vendor.cne.feature=1
 
